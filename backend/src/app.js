@@ -6,7 +6,7 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://url-shortner-six-jet.vercel.app/",
     credentials: true,
   })
 );
